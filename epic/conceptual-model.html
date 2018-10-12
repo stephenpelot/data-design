@@ -1,0 +1,24 @@
+Entity: Specific Article, user profile, website as a whole
+
+Attribute: Likes (m), views (m), username (i), post title (i)
+
+Relationships: many users have many posts (m-m), many users have one username (1-m)
+
+
+
+Profile
+	profileid
+	profileusername
+	profileemail
+	profileprimarykey
+
+Post
+	postid
+	postforeignkey
+	postdate
+	postprimarykey
+Like
+	likeid
+	likedate
+	likeprofileforeignid
+	likepostforeignid

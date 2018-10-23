@@ -19,7 +19,7 @@ Primary Key(profileId),
 create table post (
 	postId BINARY(16) not null,
 	postDate DATETIME(6) not null,
-	postContent TEXT(2000)not null,
+	postContent VARCHAR(2000)not null,
 	postProfileId BINARY(16) not null,
 	postPostId BINARY(16) not null,
 	index (postProfileId),

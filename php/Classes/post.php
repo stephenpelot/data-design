@@ -1,8 +1,8 @@
 <?php
 
 namespace spelot\datadesign;
-require_once(Classes(__DIR__, 2) . "/vendor/autoload.php");
-
+require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
+require_once ("../Classes/autoload.php");
 use Ramsey\Uuid\Uuid;
 
 
